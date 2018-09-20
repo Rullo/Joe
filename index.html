@@ -1,0 +1,82 @@
+<?php
+
+
+
+?>
+
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<html>
+<head>
+    <title>Luis and Joe's project</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <script src="/js/starterForm.js"></script>
+
+    <script>
+           
+function placeInfoToPage1(){
+    // var firstName = document.getElementById("firstName").innerText;
+    // var lastName = document.getElementByName("lastName").innerHTML;
+    // var phone = document.getElementById("phone").innerText;
+    // var photo = document.getElementById("image").innerHTML;
+    
+
+        document.getElementById("first").innerHTML = document.getElementById("lastName").value;
+        document.getElementById("last").innerHTML = document.getElementById("lastName").value;
+        document.getElementById("ph#").innerHTML = document.getElementById("phone").value;
+        document.getElementById("pic").innerHTML = photo.innerHTML;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="grid-container">
+
+            <div class="grid-item"> john</div> <div class="grid-item"> smith</div> 
+            
+
+
+        
+
+
+    </div>
+        
+        
+<!-- need to build out javascript file with form action -->
+        
+
+        <label> FIRST NAME</label>
+        <input type="text" name="firstName" id="firstName"><br>
+        <label> LAST NAME</label>
+        <input type="text" name="lastName" id="lastName"><br>
+        <label> PHONE</label>
+        <input type="text" name="phone" id="phone"><br>
+        
+        <label> PHOTO </label>
+        <input type="photo" name="image" id="image">
+        <br>
+        <button  onclick="placeInfoToPage1()">Get it</button>
+
+        <div id="first">the</div>
+        <div id="last">v</div>
+        <div id="ph#">c</div>
+        <div id="pic">a</div>   
+    <!-- <div id="firstName">d</div>
+    <div id="lastName">v</div>
+    <div id="phone">c</div>
+    <div id="photo">b</div> -->
+    
+    
+
+    <!-- </div> -->
+    <script></script>
+</body>
+</html>
